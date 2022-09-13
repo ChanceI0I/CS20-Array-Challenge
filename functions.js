@@ -11,7 +11,7 @@ function includes(item, array) {
 
 function indexOf(item, array) {
     for (let i = 0; i < array.length; i++) {
-        if (item == array[i]) {
+        if (item === array[i]) {
             return i
         }
     }
